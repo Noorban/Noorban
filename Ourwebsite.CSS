@@ -1,0 +1,128 @@
+
+.z-navicat-header_logoWrapper {
+  position: relative;
+  left: 100px; /* Flytter logoen til venstre  */
+  top: 10px; /* Flytter logoen opp med 20px */
+    
+} 
+
+#search{
+    position: relative;
+    left: 1275px;
+}
+
+
+  /* Add your CSS styles here */
+  .header {
+  background-color: rgb(115, 171, 82);
+  color: rgb(183, 166, 166);
+  padding: 20px;
+}
+
+
+.product-card1 {
+vertical-align: top;
+  background-color: #f2f2f2;
+  border: 10px solid #ccc;
+  box-shadow: 2px 2px 6px #ddd;
+  display: inline-block;
+  margin: 30px;
+  padding: 30px;
+  width: 300px;
+
+}
+
+
+.product-card2 {
+  vertical-align: top;
+  background-color: #f2f2f2;
+  border: 10px solid #ccc;
+  box-shadow: 2px 2px 6px #ddd;
+  display: inline-block;
+  margin: 30px;
+  padding: 40px;
+  width: 300px;
+
+}
+
+.product-card3 {
+  vertical-align: top;
+  background-color: #f2f2f2;
+  border: 10px solid #ccc;
+  box-shadow: 2px 2px 6px #ddd;
+  display: inline-block;
+  margin: 30px;
+  padding: 10px;
+  width: 300px;
+
+}
+
+
+.product-card4 {
+  vertical-align: top;
+  background-color: #f2f2f2;
+  border: 10px solid #ccc;
+  box-shadow: 2px 2px 6px #ddd;
+  display: inline-block;
+  margin: 30px;
+  padding: 10px;
+  width: 300px;
+
+}
+
+.product-image {
+  width: 100%;
+}
+
+.product-title {
+  font-size: 18px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.product-price {
+  color: #bb6820;
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+    
+
+/* UL AND LI SECTION */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+  }
+  
+  li {
+    display: inline-block;
+    padding: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    margin-top: 40px;
+  }
+  
+  li ul {
+    display: none;
+  }
+  
+  li:hover ul {
+    display: block;
+    position: absolute;
+  }
+  
+  li ul li {
+    display: block;
+    background-color: lightgray;
+    padding: 10px;
+}
+
